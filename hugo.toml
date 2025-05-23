@@ -4,6 +4,7 @@ canonifyURLs = true
 languageCode = 'en-us'
 title = "inajob's Picks: Fab Builds from Japan"
 theme = 'Blonde'
+googleAnalytics = "G-DRJFP4CYLK"
 
 [params]
 base_color = "bg-green-600"
