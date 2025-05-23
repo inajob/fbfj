@@ -8,7 +8,7 @@ googleAnalytics = "G-DRJFP4CYLK"
 
 [params]
 base_color = "bg-green-600"
-description = "Blonde theme for Hugo."
+description = "inajob shares cool fab builds by Japanese hobbyists and makers — from 3D printing to electronics and more."
 paginator_pages = "5"
 tagsLimit = 1000
   [params.post]
