@@ -1,4 +1,4 @@
-baseURL = 'https://inajob.github.io/fab-build-from-japan/'
+baseURL = 'https://inajob.github.io/fbfj/'
 relativeURLs = false
 canonifyURLs = true
 languageCode = 'en-us'
