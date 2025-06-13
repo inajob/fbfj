@@ -78,9 +78,9 @@
 
 {{ if .Params.image }}
     {{ with .Params.image }}
-<meta property="og:image" content="{{ ($.Page.Resources.GetMatch .) | absURL }}">
-<meta property="og:image:url" content="{{ ($.Page.Resources.GetMatch .) | absURL }}">
-<meta property="twitter:image" content="{{ ($.Page.Resources.GetMatch .) | absURL }}">
+<meta property="og:image" content="{{ ($.Page.Resources.GetMatch .).RelPermalink | absURL }}">
+<meta property="og:image:url" content="{{ ($.Page.Resources.GetMatch .).RelPermalink | absURL }}">
+<meta property="twitter:image" content="{{ ($.Page.Resources.GetMatch .).RelPermalink | absURL }}">
     {{ end }}
 {{ else }}
 <meta property="og:image" content="{{ .Site.Params.og_image | absURL }}">
